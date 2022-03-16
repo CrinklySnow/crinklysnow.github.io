@@ -81,6 +81,11 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
+	
+	#game-container {
+		height: 5px;
+	}
+	
 	#keyboard {
 		position: fixed;
 		bottom: 0px;
@@ -93,7 +98,7 @@ html, body {
 	.key {
 		margin: 1px;
 		font-size: 15px;
-		min-width: 25px;
+		min-width: 27px;
 		height: 50px;
 		
 	}
@@ -101,7 +106,7 @@ html, body {
 	#enter-button, #back-button {
 		margin: 1px;
 		font-size: 15px;
-		min-width: 20px;
+		min-width: 15px;
 		height: 50px;
 		
 	}
