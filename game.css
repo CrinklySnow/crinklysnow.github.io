@@ -1,0 +1,81 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#navbar {
+	width: 100%;
+	text-align: center;
+	border-bottom: 2px solid #e7e9eb;
+}
+
+#navbar h1 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	font-size: 35px;
+}
+
+#keyboard {
+	position: fixed;
+	bottom: 0px;
+	border: 1px solid black;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#enter-button, #back-button, .key {
+	margin: 1px;
+	font-size: 15px;
+	min-width: 40px;
+	height: 50px;
+	
+}
+
+#enter-button, #back-button {
+	width: 70px;
+}
+
+#game-container {
+	border: 1px solid black;
+	margin-top: 5vh;
+	text-align: center;
+}
+
+#game {
+	width: 350px;
+	height: 400px;
+	table-layout: fixed;
+	display: inline-table;
+	text-align: center;
+}
+
+#game tr td {
+	border: 1px solid black;
+}
+
+#game tr td {
+	width: calc(100%/5);
+	height: calc(100%/6);
+}
+
+.pressed {
+	background-color: #000;
+	color: #fff;
+}
+
+.correct {
+	background-color: #6aaa64;
+	color: #fff;
+}
+
+.placed-wrong {
+	background-color: #C9B458;
+	color: #fff;
+}
+
+.wrong {
+	background-color: #787c7e;
+	color: #fff;
+}
