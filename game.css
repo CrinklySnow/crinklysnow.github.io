@@ -90,7 +90,15 @@ html, body {
 		margin-bottom: 5px;
 	}
 	
-	#enter-button, #back-button, .key {
+	.key {
+		margin: 1px;
+		font-size: 15px;
+		min-width: 30px;
+		height: 50px;
+		
+	}
+	
+	#enter-button, #back-button {
 		margin: 1px;
 		font-size: 15px;
 		min-width: 20px;
