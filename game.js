@@ -32,8 +32,10 @@ $(document).ready(function() {
 	
 	var states = [];
 	
+	var qwerty = "qwertyuiopasdfghjklzxcvbnm";
+	
 	for (var i = 0; i < 26; i++) {
-		var t = $('<button class="key" display="inline-block">' + String.fromCharCode(97 + i) + '</button>');
+		var t = $('<button class="key" display="inline-block">' + qwerty.charAt(i) + '</button>');
 		$("#keyboard").append(t);
 		
 		if (gaps.indexOf(i) > -1) {
