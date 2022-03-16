@@ -79,3 +79,26 @@ html, body {
 	background-color: #787c7e;
 	color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+	#keyboard {
+		position: fixed;
+		bottom: 0px;
+		border: 1px solid black;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	
+	#enter-button, #back-button, .key {
+		margin: 1px;
+		font-size: 15px;
+		min-width: 30px;
+		height: 50px;
+		
+	}
+	
+	#enter-button, #back-button {
+		width: 70px;
+	}
+}
